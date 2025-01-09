@@ -144,3 +144,35 @@ margin-bottom: 12px
         margin-top: 10px;
     }
 
+    .card_btn{
+        background-color: aquamarine;
+        font-family: Work Sans;
+        font-size: small;
+        font-weight: 300;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0%;
+        padding: 10px 5px;
+        text-transform: capitalize;
+        border-radius: 1px;
+        border: none;
+        color: white;
+        border-radius: 8px;
+       background: rgb(82, 195, 3);
+       text-align: center;
+       padding: 3px 10px;
+     
+       
+    }
+
+    .card_main_btn{
+       
+        margin: 6px 640px;
+    }
+    .card_btn:hover{
+        border: 2px solid green;
+        background-color: blanchedalmond;
+        color: black;
+        transform: 1s;
+    }
+
