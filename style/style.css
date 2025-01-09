@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", serif; */
+*{
+    padding: 0;
+    margin: 0;
+}
+#hero{
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url("../assets/hero-bg.png");
+    
+    width: 1488px;
+    /* width: 100%; */
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero_content{
+
+}
+
+#hero .hero_content .subtitle{
+        color: rgb(255, 255, 255);
+        font-family: Work Sans;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0%;
+        text-align: center;
+        opacity: 0.8;
+        margin-bottom: 12px
+}
+#hero .hero_content .heading{
+ color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 12px
+}
+.text_content{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 11px;
+    opacity: 1.1;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center; 
+    padding: 10px 4px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(82, 195, 3);
+}
+
+
+
+.content_container .head_content{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .content_container .food_content{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #main_card_item{
+        display: flex;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .food_container .pizza_img img{
+        width: 100%;
+        border-radius: 5px;
+        width: 250px;
+        background: url(Rectangle 1);
+        margin-top: 20px;
+}
+
+    .food_container .pizza_item{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 10px;
+        letter-spacing: 0%;
+      
+    }
+
+    .food_container .off_prize{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0%;
+        margin-top: 10px;
+       
+    }
+
+    .card_content p{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0%;
+        margin-top: 10px;
+    }
+
